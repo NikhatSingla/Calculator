@@ -1,0 +1,54 @@
+.calculator {
+    width: fit-content;
+    font-weight: 800;
+}
+
+.textbox {
+    margin-bottom: 10px;
+}
+
+.inner-textbox {
+    box-sizing: border-box;
+    border: black 1px solid;
+    width: 100%;
+    padding: 8px 4px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.inner-textbox:hover {
+    border: rgb(9, 121, 165) 1px solid;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+}
+
+button {
+    border: none;
+    flex-basis: 100px;
+    aspect-ratio: 1;
+}
+
+.operator {
+    background-color: blue;
+    color: white;
+}
+
+.equal-to {
+    background-color: rgb(178, 178, 34);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.9;
+}
+
+.clear {
+    background-color: red;
+}
